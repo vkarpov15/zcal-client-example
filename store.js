@@ -58,6 +58,7 @@ export const fetchUserData = async function(id) {
     if (res.status !== 200) {
       throw new Error(payload.message || 'Unknown error');
     }
+    // Cast date strings to dates, validate geoJSON structure, etc.
     payload = new UserDataType(payload);
   } catch (error) {
     return store.dispatch({
