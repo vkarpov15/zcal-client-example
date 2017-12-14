@@ -1,0 +1,27 @@
+{
+  "name": "zcal-client-example",
+  "version": "1.0.0",
+  "author": "Valeri Karpov <val@karpov.io>",
+  "dependencies": {
+    "archetype": "0.8.2",
+    "next": "4.2.1",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-event-calendar": "0.3.0",
+    "redux": "3.7.2"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "license": "Apache 2.0",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vkarpov15/zcal-client-example.git"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
