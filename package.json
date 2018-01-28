@@ -4,7 +4,7 @@
   "author": "Valeri Karpov <val@karpov.io>",
   "dependencies": {
     "archetype": "0.8.2",
-    "next": "4.2.1",
+    "next": "4.2.3",
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "react-event-calendar": "0.3.0",
